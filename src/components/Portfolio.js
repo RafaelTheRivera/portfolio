@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../styles/portfolio.css';
-import ProjectDetail from './ProjectDetail';
 
 const projects = [
   {
