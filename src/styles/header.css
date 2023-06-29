@@ -1,1 +1,35 @@
-/* Your header styles here */
+.header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header ul li {
+    margin: 0 10px;
+  }
+  
+  .header ul li button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .header ul li button:hover {
+    color: #007bff;
+  }
+  
+  .header ul li button.active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
