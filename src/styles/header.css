@@ -2,34 +2,35 @@
     background-color: #222;
     color: #fff;
     padding: 20px;
-  }
-  
-  .header ul {
+}
+
+.header ul {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .header ul li {
+}
+
+.header ul li {
     margin: 0 10px;
-  }
-  
-  .header ul li button {
+}
+
+.header ul li a {
     background: none;
     border: none;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none; /* Removes the underline from links */
+    padding: 5px 10px; /* Optional padding to make them look more button-like */
     transition: color 0.3s;
-  }
-  
-  .header ul li button:hover {
+}
+
+.header ul li a:hover {
     color: #007bff;
-  }
-  
-  .header ul li button.active {
+}
+
+.header ul li a.active {
     color: #007bff;
     font-weight: bold;
-  }
-  
+}

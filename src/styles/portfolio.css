@@ -19,6 +19,20 @@
   position: relative;
 }
 
+.project-item, .project-item a {
+    width: 400px;
+    height: 400px;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none; /* Removes the underline from links */
+    color: inherit; /* Ensures the link text has the correct color */
+}
+
 .project-item:hover {
   position: relative;
 }
